@@ -1,0 +1,51 @@
+/* src/components/ProductList.css */
+.product-list {
+    margin: 20px;
+}
+
+.product-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.product-list th,
+.product-list td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.product-list th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+/* src/components/ProductList.css */
+.create-button,
+.update-button,
+.delete-button {
+    padding: 8px 12px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.create-button {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.update-button {
+    background-color: #ffa500;
+    color: white;
+}
+
+.delete-button {
+    background-color: #f44336;
+    color: white;
+}
+
+.create-button:hover,
+.update-button:hover,
+.delete-button:hover {
+    opacity: 0.8;
+}
